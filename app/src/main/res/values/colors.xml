@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="line_color">#E1E1E1</color>
+
+    <color name="black">#000</color>
+    <color name="grey_111">#111</color>
+    <color name="grey_333">#222</color>
+    <color name="grey_666">#666</color>
+    <color name="grey_999">#999</color>
+    <color name="grey_ccc">#ccc</color>
+
+    <color name="red">#F00</color>
+    <color name="red_333">#F33</color>
+    <color name="red_666">#F66</color>
+    <color name="red_999">#F99</color>
+    <color name="red_ccc">#Fcc</color>
+
+    <color name="blue">#00F</color>
+    <color name="blue_333">#33f</color>
+    <color name="blue_666">#66f</color>
+    <color name="blue_999">#99f</color>
+    <color name="blue_ccc">#ccf</color>
+
+    <color name="green">#0f0</color>
+    <color name="green_333">#3f3</color>
+    <color name="green_666">#6f6</color>
+    <color name="green_999">#9f9</color>
+    <color name="green_ccc">#cfc</color>
+
+    <color name="yellow">#ff0</color>
+    <color name="yellow_333">#ff3</color>
+    <color name="yellow_666">#ff6</color>
+    <color name="yellow_999">#ff9</color>
+    <color name="yellow_ccc">#ffc</color>
+</resources>

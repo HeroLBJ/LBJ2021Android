@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh01Activity">
+
+    <View
+        android:id="@+id/ivAnim01"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100" />
+
+    <Button
+        android:text="播放动画"
+        android:onClick="onPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

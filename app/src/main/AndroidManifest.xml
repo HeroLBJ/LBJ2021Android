@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lbj.lbj2021android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LBJ2021Android">
+        <activity android:name=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh02Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh01Activity"/>
+        <activity android:name=".ui.study.anim.layout_anim.UIStudyAnimLayoutActivity" />
+        <activity android:name=".ui.study.anim.anim_list.UIStudyAnimListActivity" />
+        <activity android:name=".ui.study.drawable.clip_drawable.UIStudyDrawableClipActivity" />
+        <activity android:name=".ui.study.drawable.inset_drawable.UIStudyDrawableInsetActivity" />
+        <activity android:name=".ui.study.drawable.translation_drawable.UIStudyDrawableTranslationActivity" />
+        <activity android:name=".ui.study.drawable.level_list_drawable.UIStudyDrawableLevelListActivity" />
+        <activity android:name=".ui.study.drawable.layer_list_drawable.UIStudyDrawableLayerListActivity" />
+        <activity android:name=".ui.study.drawable.bitmap_drawable.UIStudyBitmapDrawableActivity" />
+        <activity android:name=".ui.study.view.circle_view.UIStudyViewCircleViewActivity" />
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

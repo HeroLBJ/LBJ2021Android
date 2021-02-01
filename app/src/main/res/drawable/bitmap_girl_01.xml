@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    // 图片资源的id
+    android:src="@drawable/ic_launcher_background"
+    // 开启抗锯齿功能。抗锯齿让图片变得平滑，一定程度上降低图片的清晰度，降低幅度可忽略不计。
+    // 应该要开启
+    android:antialias="true"
+    // 开启抖动效果：当图片的像素配置和手机屏幕的像素配置不一致时，开启这个会让高质量的图片在低质量的屏幕上还能保持较好的显示效果。
+    // 应该要开启
+    android:dither="true"
+    // 开启过滤效果。当图片尺寸被拉伸或压缩时，开启过滤效果可以保持较好的显示效果。
+    // 应该要开启
+    android:filter="true"
+    // 当图片小于容器的尺寸时，设置图片的位置
+    android:gravity="center"
+    // 图像相关的处理技术，也叫纹理映射。默认false
+    android:mipMap="false"
+    // 平铺模式。开启平铺模式，gravity属性会被忽略
+    // disabled: 关闭平铺模式，默认值。
+    // repeat： 简单的水平和竖直方向上的平铺效果
+    // mirror: 水平和竖直方向上的镜面投影效果
+    // clamp: 图片四周的像素会扩展到周围区域
+    android:tileMode="disabled|clamp|repeat|mirror"
+ -->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:antialias="true"
+    android:dither="true"
+    android:filter="true"
+    android:gravity="center"
+    android:mipMap="false"
+    android:src="@drawable/res_image_other_01"
+    android:tileMode="clamp" />
