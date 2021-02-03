@@ -8,6 +8,11 @@ import android.view.View
 import com.lbj.lbj2021android.R
 import kotlinx.android.synthetic.main.activity_u_i_study_anim_sxdh02.*
 
+/**
+ * 作者：李炳军
+ * 创建日期：2021-02-02  09:52
+ * 释义：属性动画 - 第2种解决方案
+ */
 class UIStudyAnimSxdh02Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
