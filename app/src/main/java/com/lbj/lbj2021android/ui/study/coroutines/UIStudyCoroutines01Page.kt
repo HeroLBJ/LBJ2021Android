@@ -9,7 +9,49 @@ import kotlin.concurrent.thread
  * 释义：
  */
 
-fun main() = coroutines_11()
+fun main() = coroutines_13()
+
+class MyThread :Thread(){
+    override fun run() {
+        super.run()
+        try {
+            for(index in 0..500000){
+                println("===> $index")
+                // 异常法，使线程自行停止
+                throw InterruptedException()
+            }
+        }catch (e: Exception){
+            println("===> mythread e")
+        }
+    }
+}
+
+fun coroutines_13(){
+
+}
+
+fun coroutines_12(){
+    runBlocking {
+        val startTime = System.currentTimeMillis()
+        val job = launch(Dispatchers.Default) {
+            var nextPrintTime = startTime
+            var i = 0
+            while (i < 5) { // 一个执行计算的循环，只是为了占用 CPU
+                // 每秒打印消息两次
+                if (System.currentTimeMillis() >= nextPrintTime) {
+                    println("当前为 ${i + 1} ...")
+                    nextPrintTime += 500L
+                }
+                i++
+            }
+        }
+        println("111")
+        delay(1300L) // 等待一段时间
+        println("222")
+        job.cancelAndJoin() // 取消一个作业并且等待它结束
+        println("333")
+    }
+}
 
 // 执行三次结束
 fun coroutines_11() {

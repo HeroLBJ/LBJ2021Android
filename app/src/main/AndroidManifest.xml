@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LBJ2021Android">
-        <activity android:name=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh03Activity">
+        <activity android:name=".ui.study.view.calendar.UIStudyViewCalendarActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh02Activity"/>
+        <activity android:name=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh03Activity"/>
+        <activity android:name=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh02Activity" />
         <activity android:name=".ui.study.anim.anim_sxdh.UIStudyAnimSxdh01Activity" />
         <activity android:name=".ui.study.anim.layout_anim.UIStudyAnimLayoutActivity" />
         <activity android:name=".ui.study.anim.anim_list.UIStudyAnimListActivity" />
