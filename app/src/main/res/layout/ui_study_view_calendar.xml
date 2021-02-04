@@ -9,12 +9,14 @@
         android:layout_height="50dp">
 
         <Button
+            android:id="@+id/btnLastMonth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:text="上一月" />
 
         <TextView
+            android:id="@+id/tvDateTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -23,6 +25,7 @@
             android:textSize="@dimen/sp_24" />
 
         <Button
+            android:id="@+id/btnNextMonth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -93,6 +96,7 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:overScrollMode="never"
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
